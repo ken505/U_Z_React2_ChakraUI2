@@ -1,9 +1,10 @@
-import { memo, VFC } from "react";
+import { memo, useState, VFC } from "react";
 import { Box, Divider, Flex, Heading, Input, Stack } from "@chakra-ui/react";
 
 import { PrimaryButton } from "../atoms/button/PrimaryButton";
 
 export const Login: VFC = memo(() => {
+  const [] = useState();
   return (
     <Flex align="center" justify="center" height="100vh">
       <Box bg="white" ws="sm" p={4} borderRadius="md" shadow="md">
